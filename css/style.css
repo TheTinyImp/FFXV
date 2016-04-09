@@ -3,11 +3,6 @@ body {
 	font-family: copperplate, serif;
 }
 
-h1 {
-	color: #ffffff;
-	text-align: center;
-}
-
 #clockdiv {
 	background: #607B8B;
 	border: 1px solid #000000;
