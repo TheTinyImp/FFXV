@@ -68,3 +68,21 @@ footer {
 	color: #ffffff;
 	text-align: center;
 }
+
+@media only screen and (min-width: 1024px){
+	
+	#clockdiv {
+		background: #607B8B;
+		border: 1px solid #000000;
+		border-radius: 20px;
+		color: #000000;
+		text-align: center;
+		display: inline-block;
+		/*width:*/ 
+		font-size: 3.500em;
+		position: absolute;
+		left: 30%;
+		top: 72%;
+		opacity: 0.9;
+	}
+}
