@@ -3,6 +3,11 @@ body {
 	font-family: copperplate, serif;
 }
 
+h1 {
+	color: #ffffff;
+	text-align: center;
+}
+
 #clockdiv {
 	background: #607B8B;
 	border: 1px solid #000000;
@@ -62,37 +67,4 @@ body {
 footer {
 	color: #ffffff;
 	text-align: center;
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-  background-color: red;
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-  background-color: orange;
-}
-
-/* iPhone 4 - 5s ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-  background-color: yellow;
-}
-
-/* iPhone 6 ----------- */
-@media
-only screen and (max-device-width: 667px) 
-only screen and (-webkit-device-pixel-ratio: 2) {
-  background-color: blue;
-}
-
-/* iPhone 6+ ----------- */
-@media
-only screen and (min-device-width : 414px) 
-only screen and (-webkit-device-pixel-ratio: 3) {
-  background-color: green;
 }
